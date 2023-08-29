@@ -1,6 +1,6 @@
 pipeline {
     agent  {
-        label 'podman'
+        label 'kubeagent'
     }
 
     stages {
